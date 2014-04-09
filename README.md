@@ -12,7 +12,7 @@ It is made with the ISPmail guide (http://workaround.org/ispmail) in mind, and i
 * Access to the mysql server containing the "Mailserver" database from the webserver
 
 ## Setup
-Database settings are found in the includes/config.php
+Database settings are found in the `includes/config.php`
 
 
 Even if this tool has password access, you should only allow your own IP or local IP range to access the page with a .htaccess file on your webserver!
