@@ -47,7 +47,7 @@ echo '<body>';
 						require_once('includes/class_domains.php');
 						if ($domains = new domains) {
 							echo '<h2>Domains</h2>';
-							echo '<p>If you delete a domain all Email accounts and aliases on it will be deleted too (exept if you converted the databse to MyISAM, then you have to delete Email accounts and Aliases manually, if you dont know what MyISAM is then you propaply didnt.)</p>';
+							echo '<p>If you delete a domain, all email accounts and aliases on it will be deleted too.</p>';
 							echo '<p>You can see a list of domains, create a new one or delete the old ones below</p>';
 							echo '<div class="create_form">';
 								echo '<form id="create_domain" name="create_domain" action="?page=domains&amp;create=true" method="POST">';
@@ -75,7 +75,7 @@ echo '<body>';
 									$delete = $domains->db->clean($_GET['delete']);
 									if ($domains->delete_domain($delete)) {
 										echo '<div class="success">';
-											echo 'The domain and all its accounts has been deleted.';
+											echo 'The domain has been deleted. Note: All related accounts have also been deleted';
 										echo '</div>';
 									}
 									else {
@@ -87,7 +87,7 @@ echo '<body>';
 							}
 							
 							echo '<h3>In database</h3>';
-							echo '<p>(Click on the domain name to view emails associatet with that domain or "Aliases: " to view aliases associatet with that domain)</p>';
+							echo '<p>(Click on the domain name to view emails associated with that domain or "Aliases" to view associated aliases)</p>';
 							if ($domains->get_all_domains()) {
 								if ($domains->num_domains() > 0){
 									if (!$domains->echo_domain_list()) {
@@ -147,7 +147,7 @@ echo '<body>';
 									}
 									else {
 										echo '<div class="error">';
-											echo 'Something went wrong. the password has not been reset!';
+											echo 'Something went wrong. The password has not been reset!';
 										echo '</div>';
 									}
 								}
