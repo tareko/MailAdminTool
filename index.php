@@ -273,7 +273,7 @@ echo '<body>';
 									$delete = $aliases->db->clean($_GET['delete']);
 									if ($aliases->delete_alias($delete)) {
 										echo '<div class="success">';
-											echo 'The alias and all its aliases has been deleted.';
+											echo 'The alias has been deleted.';
 										echo '</div>';
 									}
 									else {
