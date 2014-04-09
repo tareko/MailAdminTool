@@ -6,12 +6,12 @@ Mail Admin Tool based on work by Steffan Slot from http://mat.ssdata.dk/
 This management interface is for the purpose of administering email servers, originally created and distributed by Stefan Slot (mat@ssdata.dk).
 It is made with the ISPmail guide (http://workaround.org/ispmail) in mind, and it works with the database created when following that guide.
 
-== Requirements: ==
+## Requirements
 * A webserver with PHP support
 * Javascript
 * Access to the mysql server containing the "Mailserver" database from the webserver
 
-== Setup ==
+## Setup
 Database settings are found in the includes/config.php
 
 
