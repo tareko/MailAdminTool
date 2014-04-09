@@ -1,0 +1,268 @@
+body {
+	background-color: #33393a;
+}
+
+a, a:visited, a:hover, a:active {
+	text-decoration: none;
+	color: #00c0ff;
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+div#wrapper {
+	margin: auto;
+	width: 90%;
+	min-height: 500px;
+	background-color: #2e3436;
+	-moz-border-radius: 5px;
+	-moz-box-shadow: 0 0 3px 2px #00c0ff;
+	-webkit-box-shadow: 0 0 3px 2px #00c0ff;
+	box-shadow: 0 0 3px 2px #00c0ff;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+div#toplogo {
+	height: 75px;
+	background-image: url('../images/logo100px.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 75px;
+	margin-right: 20px;
+	float: left;
+	position: absolute;
+	border: none;
+}
+
+h1 {
+	color: #00c0ff;
+	border-bottom: 1px solid #00c0ff;
+	font-size: 40px;
+	margin: 0;
+	margin-left: 100px;
+	margin-top: 23px;
+	padding: 0;
+}
+
+div.clear_float {
+	width: 100%;
+	height: 1px;
+	margin: 0 0 -1px;
+	clear: both;
+}
+
+
+div#content {
+	color: #EDEDED;
+	margin-top: 30px;
+}
+
+
+div#login_form {
+	background-color: #33393a;
+	margin: auto;
+	width: 300px;
+	height: 170px;
+	-moz-border-radius: 5px;
+	-moz-box-shadow: inset 0 0 5px 2px #00c0ff;
+	-webkit-box-shadow: inset 0 0 5px 2px #00c0ff;
+	box-shadow: inner 0 5px 2px #00c0ff;
+	border-radius: 5px;
+	padding: 10px;
+	padding-top: 30px;
+}
+
+
+div#login_form input[type="text"], div#login_form input[type="password"] {
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 4px 7px;
+	outline: 0;
+	-webkit-appearance: none;
+	width: 275px;
+}
+
+div#login_form input:focus {
+	border-color: #339933;
+}
+
+
+div#login_form div.inputholder {
+	margin: auto;
+	width: 275px;
+}
+
+
+div#login_form input[type="submit"] {
+	margin: auto;
+	margin-top: 10px;
+	width: 100px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-appearance: none;
+	outline: 0;
+	font-size: 15px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.info, .success, .warning, .error {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	width: 400px;
+	margin: 0 auto 10px auto;
+	border: 1px solid;
+	padding:15px 10px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+.info {
+	-moz-box-shadow: inset 0 0 3px 1px blue;
+	-webkit-box-shadow: inset 0 0 3px 1px blue;
+	box-shadow: inner 0 3px 1px blue;
+	color: #00529B;
+	background-color: #BDE5F8;
+	background-image: url('../images/info.png');
+}
+.success {
+	-moz-box-shadow: inset 0 0 3px 1px green;
+	-webkit-box-shadow: inset 0 0 3px 1px green;
+	box-shadow: inner 0 3px 1px green;
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	background-image:url('../images/success.png');
+}
+.warning {
+	-moz-box-shadow: inset 0 0 3px 1px yellow;
+	-webkit-box-shadow: inset 0 0 3px 1px yellow;
+	box-shadow: inner 0 3px 1px yellow;
+	color: #9F6000;
+	background-color: #FEEFB3;
+	background-image: url('../images/warning.png');
+}
+.error {
+	-moz-box-shadow: inset 0 0 3px 1px red;
+	-webkit-box-shadow: inset 0 0 3px 1px red;
+	box-shadow: inner 0 3px 1px red;
+	color: #D8000C;
+	background-color: #FFBABA;
+	background-image: url('../images/error.png');
+}
+
+div#menu_wrapper {
+	margin-top: 45px;
+	float: right;
+	height: 15px;
+	font-size: 15px;
+	font-weight: bold;
+	margin-right: -20px;
+}
+div.menu_button {
+	float: left;
+	margin-right: 20px;
+	color: #00c0ff;
+}
+
+div#footer {
+	float: right;
+	color: black;
+	margin-right: 50px;
+	margin-top: 10px;
+}
+
+
+div.create_form input[type="text"], div.create_form input[type="password"] {
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 15px;
+	padding: 4px 7px;
+	outline: 0;
+	-webkit-appearance: none;
+	width: 275px;
+}
+
+div.create_form input:focus {
+	border-color: #339933;
+}
+
+div.returned_row {
+	line-height: 20px;
+	margin-bottom: 5px;
+}
+
+div.returned_row a {
+	color: #EDEDED;
+	text-decoration: none;
+}
+
+div.returned_row a:hover {
+	text-decoration: none;
+}
+
+div.returned_row  a.set_password_submit {
+	text-decoration: none;
+	color: #00c0ff;
+	cursor: pointer;
+}
+
+div.returned_row  a.set_password_submit:hover {
+	text-decoration: underline;
+}
+
+div.delete_button {
+	background-image: url('../images/trash.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 16px;
+	width: 16px;
+	margin-right: 5px;
+	float: left;
+}
+
+div.reset_password_button {
+	background-image: url('../images/key.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 16px;
+	width: 16px;
+	margin-right: 5px;
+	float: left;
+}
+
+
+div.row_content {
+	float: left;
+	height: 20px;
+	margin-right: 10px;
+}
+
+div.change_password_wrapper {
+	display: none;
+	float: left;
+	height: 20px;
+}
+
+div.change_password_wrapper input {
+	border: 1px solid #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 11px;
+	padding-left: 7px;
+	padding-right: 7px;
+	outline: 0;
+	-webkit-appearance: none;
+	width: 275px;
+}

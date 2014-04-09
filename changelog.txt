@@ -1,0 +1,19 @@
+CHANGELOG:
+
+v1.2.1 (10-11-2013)
+	* Fixed and issue that the Home button would not work if it MAT was installed in a subdir on the webserver instead of a subdomain or domain's root folder
+	+ Added HTML 4.0 DOCTYPE declaration
+
+v1.2 (18-08-2013)
+	+ Improved some descriptions
+	* Made some changes in README.txt
+	* Changed some error messages from Danish to English
+	+ Added the version to the "homepage/welcome screen" so it's easy to find
+	
+v1.1 (29-07-2013)
+	+ Descriptions on every page
+	+ Domains: Counters showing how many aliases and user accounts on each domain
+	+ Aliases: added a link to show "which email addresses point here" to an alias/email. (If you click an email in the email menu, you will get a list of all aliases with that email as "Destination")
+
+v1.0 (28-07-2013)
+	+ First release
